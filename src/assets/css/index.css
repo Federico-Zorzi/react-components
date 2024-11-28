@@ -3,16 +3,16 @@
   --footer-height: 120px;
 }
 
-header .container {
-  height: var(--header-height);
-}
-
 header,
 main {
   background-color: #e5e5e5;
 }
 
-main {
+header .container {
+  height: var(--header-height);
+}
+
+main .container {
   min-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 
