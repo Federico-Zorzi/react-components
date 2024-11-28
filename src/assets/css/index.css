@@ -38,4 +38,9 @@ h1 {
   color: white;
   background-color: #d9a420;
   font-size: 0.8rem;
+  padding: 0.5rem 1.2rem;
+}
+
+footer .container p {
+  margin-bottom: 0;
 }

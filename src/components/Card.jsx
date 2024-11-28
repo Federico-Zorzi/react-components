@@ -1,10 +1,11 @@
 import defaultImg from "../assets/img/default-img.png";
+import Button from "./Button";
 
 export default function Card() {
   return (
     <>
       <div className="col">
-        <div className="card m-auto rounded-4">
+        <div className="card rounded-4">
           <img src={defaultImg} className="card-img-top" alt="default-img" />
           <div className="card-body">
             <h5 className="card-title fw-semibold">Titolo del Post</h5>
@@ -15,9 +16,7 @@ export default function Card() {
               nam! Deserunt impedit numquam facilis voluptatibus.
             </p>
 
-            <button type="button" className="btn btn-warning rounded-1">
-              LEGGI DI PIÙ
-            </button>
+            <Button />
           </div>
         </div>
       </div>
