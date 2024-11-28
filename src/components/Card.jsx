@@ -1,5 +1,5 @@
 import defaultImg from "../assets/img/default-img.png";
-import Button from "./Button";
+import Button from "./Button/Button";
 
 export default function Card() {
   return (
@@ -17,6 +17,9 @@ export default function Card() {
             </p>
 
             <Button />
+            <button type="button" className="btn btn-warning rounded-1">
+              LEGGI DI PIÙ
+            </button>
           </div>
         </div>
       </div>
