@@ -1,0 +1,41 @@
+:root {
+  --header-height: 70px;
+  --footer-height: 120px;
+}
+
+header {
+  height: var(--header-height);
+}
+
+header,
+main {
+  background-color: #e5e5e5;
+}
+
+main {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+footer {
+  height: var(--footer-height);
+  background-color: rgb(51, 51, 51);
+  color: #e5e5e5;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.card {
+  max-width: 450px;
+}
+
+.footer-paragraph {
+  font-size: 0.8rem;
+}
+
+.btn {
+  color: white;
+  background-color: #d9a420;
+  font-size: 0.8rem;
+}
