@@ -5,7 +5,7 @@ export default function Card() {
   return (
     <>
       <div className="col">
-        <div className="card rounded-4">
+        <div className="card m-auto rounded-4">
           <img src={defaultImg} className="card-img-top" alt="default-img" />
           <div className="card-body">
             <h5 className="card-title fw-semibold">Titolo del Post</h5>

@@ -3,7 +3,7 @@
   --footer-height: 120px;
 }
 
-header {
+header .container {
   height: var(--header-height);
 }
 
@@ -23,6 +23,7 @@ footer {
 }
 
 h1 {
+  line-height: var(--header-height);
   margin-bottom: 0;
 }
 
