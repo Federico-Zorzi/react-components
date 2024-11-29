@@ -7,6 +7,8 @@ export default function Main() {
         <div className="container py-4">
           <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
             <Card></Card>
+            <Card></Card>
+            <Card></Card>
           </div>
         </div>
       </main>

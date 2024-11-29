@@ -1,29 +1,23 @@
-:root {
-  --header-height: 70px;
-  --footer-height: 120px;
-}
-
-header,
-main {
+body {
   background-color: #e5e5e5;
 }
 
-header .container {
-  height: var(--header-height);
+.wrapper {
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main .container {
-  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+header .container {
+  padding: 1rem 0;
 }
 
 footer {
-  height: var(--footer-height);
+  margin-top: auto;
   background-color: rgb(51, 51, 51);
   color: #e5e5e5;
 }
 
 h1 {
-  line-height: var(--header-height);
   margin-bottom: 0;
 }
 

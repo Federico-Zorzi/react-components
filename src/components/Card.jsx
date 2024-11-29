@@ -1,4 +1,4 @@
-import defaultImg from "../assets/img/default-img.png";
+import defaultImg from "../assets/img/default-img.svg";
 import Button from "./Button/Button";
 
 export default function Card() {

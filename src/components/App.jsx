@@ -6,9 +6,11 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+      <div className="wrapper d-flex">
+        <Header></Header>
+        <Main></Main>
+        <Footer></Footer>
+      </div>
     </>
   );
 }
